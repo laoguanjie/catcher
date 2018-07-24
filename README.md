@@ -9,15 +9,6 @@ java性能采集工具。可采集进程内的内存(堆、非堆、直接）、
 - /logs/error：最近错误日志
 
 ## 接入方式
-#### 引入包
-```
-<dependency>
-  <groupId>com.dtstack</groupId>
-  <artifactId>catcher</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-</dependency>
-```
-
 #### 启动服务
 ```
 String address = "localhost:19222";//自定义端口ip
